@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>个人信息处理政策 / Personal Information Processing Policy</title>
+  <style>
+    :root{
+      --bg:#f7fafc; --card:#ffffff; --muted:#6b7280; --accent:#2563eb;
+      --maxw:980px;
+      font-family: "PingFang SC", "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    body{background:var(--bg); color:#111827; margin:0; padding:32px 16px; display:flex; justify-content:center;}
+    .wrap{max-width:var(--maxw); width:100%;}
+    header{display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:18px;}
+    h1{font-size:20px; margin:0;}
+    .lang-toggle{font-size:13px; color:var(--muted);}
+    .card{background:var(--card); border-radius:12px; box-shadow:0 6px 20px rgba(16,24,40,0.06); padding:24px;}
+    nav{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:16px;}
+    nav a{font-size:14px; color:var(--accent); text-decoration:none;}
+    section{margin-bottom:18px;}
+    h2{font-size:16px; margin:12px 0;}
+    p{line-height:1.6; color:#111827;}
+    .muted{color:var(--muted);}
+    table{width:100%; border-collapse:collapse; margin-top:8px;}
+    th,td{border:1px solid #e6e9ef; padding:10px; text-align:left; font-size:14px;}
+    th{background:#fbfdff;}
+    .actions{display:flex; gap:8px; margin-top:12px;}
+    button{background:var(--accent); color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer;}
+    button.secondary{background:#e6eefc; color:var(--accent);}
+    pre{background:#0f172a; color:#f8fafc; padding:12px; border-radius:8px; overflow:auto; font-size:13px;}
+    footer{margin-top:18px; font-size:13px; color:var(--muted);}
+    @media (max-width:640px){
+      header{flex-direction:column; align-items:flex-start; gap:8px;}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>个人信息处理政策</h1>
+        <div class="muted">Personal Information Processing Policy</div>
+      </div>
+      <div class="lang-toggle muted">中 / EN — 本页为中英对照</div>
+    </header>
+
+    <div class="card">
+      <nav aria-label="目录">
+        <a href="#intro">简介 / Introduction</a>
+        <a href="#items">收集项目与方式 / Items & Methods</a>
+        <a href="#purpose">收集目的 / Purposes</a>
+        <a href="#retention">保存期限 / Retention</a>
+        <a href="#sharing">提供原则 / Provision</a>
+        <a href="#destroy">销毁程序 / Destruction</a>
+        <a href="#rights">用户权利 / Rights</a>
+        <a href="#cookies">Cookies</a>
+        <a href="#security">安全措施 / Security</a>
+        <a href="#contact">联系方式 / Contact</a>
+      </nav>
+
+      <div class="actions" role="toolbar" aria-label="页面操作">
+        <button onclick="window.print()">打印 / Print</button>
+        <button class="secondary" id="btnCopy">复制为纯文本 / Copy Text</button>
+      </div>
+
+      <section id="intro" aria-labelledby="introH">
+        <h2 id="introH">简介 / Introduction</h2>
+        <p>
+          我公司承诺遵守相关法律法规（如《信息通信网络利用促进与信息保护法》）以保护用户个人信息。根据法律或公司策略变更，本政策可能不定期更新，更新内容将发布于网站，建议用户定期查阅。
+        </p>
+        <p class="muted"><strong>Minors：</strong> 对于未成年人（包括使用、注册、支付等）之行为，须事先获得监护人同意；在获得同意后，仅收集必要个人信息。</p>
+
+        <p style="margin-top:10px;"><strong>Our company undertakes to comply with relevant laws and regulations to protect users' personal information. The policy may be updated—updates will be posted on the website. Guardians' consent is required for minors; only minimum necessary data will be collected after consent.</strong></p>
+      </section>
+
+      <section id="items" aria-labelledby="itemsH">
+        <h2 id="itemsH">第一条：个人信息的收集与使用项目及收集方式 / Items of Personal Information Collected and Collection Methods</h2>
+
+        <p><strong>收集与使用的个人信息项目（示例）：</strong></p>
+        <ul>
+          <li>会员ID（电子邮件）、密码</li>
+          <li>姓名、出生日期、地址、手机、电子邮件、移动运营商信息、PC IP地址</li>
+          <li>加密身份信息、重复订阅确认信息、性别、国籍（仅适用于需身份认证之游戏）</li>
+          <li>支付信息（姓名、地址、信用卡号、有效期、安全码）</li>
+          <li>游戏邀请ID、Facebook ID 及好友ID（在启用相关功能时）</li>
+          <li>设备信息（设备型号、CPU、浏览器类型等）</li>
+        </ul>
+
+        <p><strong>收集方式：</strong>由身份验证机构等关联公司提供；通过设备连接收集；通过 1:1 客服咨询或用户直接输入等方式收集。</p>
+
+        <p class="muted"><strong>Examples (EN):</strong> Member ID (email), password, name, DOB, address, phone, email, operator info, PC IP, encrypted ID info, payment details, Facebook IDs, device info. Collected via affiliated providers, device connections, customer inquiries, or user input.</p>
+      </section>
+
+      <section id="purpose" aria-labelledby="purposeH">
+        <h2 id="purposeH">第二条：收集与使用个人信息的目的 / Purposes of Collecting and Using Personal Information</h2>
+
+        <p>本公司直接收集的个人信息用途示例：</p>
+        <ul>
+          <li><strong>会员ID / Facebook ID：</strong>身份识别、问题会员管理、客户服务。</li>
+          <li><strong>密码：</strong>访问权限验证。</li>
+          <li><strong>Facebook 好友信息：</strong>好友匹配、游戏邀请、排行榜功能。</li>
+          <li><strong>手机号码：</strong>身份验证、处理投诉、提供付费服务。</li>
+          <li><strong>姓名/出生日期/邮箱：</strong>身份识别。</li>
+          <li><strong>PC IP：</strong>身份验证、异常检测、履行合约。</li>
+          <li><strong>信用卡号：</strong>付费服务处理。</li>
+          <li><strong>地址/电话：</strong>奖品寄送。</li>
+          <li><strong>访问记录：</strong>提升服务质量、履行合约、争议处理。</li>
+          <li><strong>设备信息：</strong>客户支持、安全防护、技术支持。</li>
+        </ul>
+
+        <p class="muted"><strong>Affiliated providers：</strong>姓名、加密身份信息、出生日期、性别、国籍等，用于身份识别、订阅确认等。</p>
+      </section>
+
+      <section id="retention" aria-labelledby="retentionH">
+        <h2 id="retentionH">第三条：个人信息的保留与使用期限 / Retention and Usage Period</h2>
+        <p>原则上在达成目的后立即销毁；但基于法律或公司政策有下列保留期限：</p>
+
+        <table>
+          <thead>
+            <tr><th>信息类别 / Category</th><th>保留期限 / Retention Period</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>合同或订阅注销记录</td><td>5 年</td></tr>
+            <tr><td>支付及供给记录</td><td>5 年</td></tr>
+            <tr><td>消费者投诉或纠纷记录</td><td>3 年</td></tr>
+            <tr><td>访问日志、IP 信息</td><td>3 个月</td></tr>
+            <tr><td>展示 / 广告记录</td><td>6 个月</td></tr>
+            <tr><td>业务账簿及重要文件</td><td>10 年</td></tr>
+            <tr><td>基于会员同意之问题会员管理等相关数据</td><td>5 年</td></tr>
+          </tbody>
+        </table>
+
+        <p class="muted">原则：除法律另有规定或经用户同意外，达到目的后即时销毁。</p>
+      </section>
+
+      <section id="sharing" aria-labelledby="sharingH">
+        <h2 id="sharingH">第四条：个人信息的提供 / Provision of Personal Information</h2>
+        <p>未经会员同意，本公司不会向外部提供个人信息，除非法律要求或存在危及会员生命之紧急情形。</p>
+      </section>
+
+      <section id="destroy" aria-labelledby="destroyH">
+        <h2 id="destroyH">第五条：销毁程序与方法 / Procedures and Methods for Destroying Personal Information</h2>
+        <p>个人信息在达到收集目的后将进行销毁，程序如下：</p>
+        <ul>
+          <li>销毁程序：依公司内部政策及法律要求，先行保留后定期销毁。</li>
+          <li>纸质资料：粉碎或焚烧。</li>
+          <li>电子资料：采用不可逆的技术手段彻底删除。</li>
+        </ul>
+      </section>
+
+      <section id="rights" aria-labelledby="rightsH">
+        <h2 id="rightsH">第六条：用户及法定代表人的权利与行使方式 / Rights and How to Exercise</h2>
+        <p>用户及法定代表人可随时查询、更正、删除或撤回同意。若要更正或删除信息，请使用“注销/删除账户”功能或联系客服中心办理。</p>
+      </section>
+
+      <section id="cookies" aria-labelledby="cookiesH">
+        <h2 id="cookiesH">第七条：自动收集设备（Cookie）的使用 / Use of Cookies</h2>
+        <p>本公司使用 Cookie 存储及检索会员资料以提供个性化服务。会员可在设备设置中启用或禁用 Cookie，但禁用可能造成部分服务无法使用。</p>
+      </section>
+
+      <section id="security" aria-labelledby="securityH">
+        <h2 id="securityH">第八条：个人信息的安全措施 / Security Measures</h2>
+        <p>为保护个人信息，本公司采取下列技术及管理措施：</p>
+        <ul>
+          <li>制定并执行安全管理计划。</li>
+          <li>安装入侵防御系统（IDS/IPS）等。</li>
+          <li>使用加密技术储存与传输敏感信息。</li>
+          <li>定期防范计算机病毒及安全检测。</li>
+        </ul>
+      </section>
+
+      <section id="contact" aria-labelledby="contactH">
+        <h2 id="contactH">第九条：联系方式 / Contact Information</h2>
+        <p>如需举报或查询个人信息违规或隐私相关问题，请联系游戏客服人员或通过下列方式联系我们：</p>
+
+        <p><strong>客服邮箱 / Support Email：</strong> <span class="muted">support@example.com</span></p>
+        <p><strong>客服电话 / Phone：</strong> <span class="muted">+86-400-000-0000</span></p>
+
+        <p class="muted">（请将上述邮箱/电话替换为你公司实际的联络信息）</p>
+      </section>
+
+      <footer>
+        <div>最后更新：<strong>2025-09-13</strong> （请替换为实际更新日期）</div>
+        <div style="margin-top:6px;">© 本公司保留最终解释权。</div>
+      </footer>
+
+    </div>
+
+    <p style="margin-top:12px; font-size:13px; color:var(--muted);">提示：把本文件（或其中 HTML 模板）放入你的 GitHub 仓库后，启用 GitHub Pages 即可对外展示。</p>
+
+    <pre id="raw" style="display:none;">
+<!-- 这里是该政策的纯文本副本，已包含中英文版本。
+（如果你需要我把纯文本也生成到本页面可启用显示。）
+-->
+    </pre>
+  </div>
+
+  <script>
+    // 复制纯文本（将页面中重要文本合并为纯文本）
+    document.getElementById('btnCopy').addEventListener('click', async () => {
+      const blocks = [
+        document.querySelector('#intro').innerText,
+        document.querySelector('#items').innerText,
+        document.querySelector('#purpose').innerText,
+        document.querySelector('#retention').innerText,
+        document.querySelector('#sharing').innerText,
+        document.querySelector('#destroy').innerText,
+        document.querySelector('#rights').innerText,
+        document.querySelector('#cookies').innerText,
+        document.querySelector('#security').innerText,
+        document.querySelector('#contact').innerText
+      ];
+      const txt = blocks.join('\n\n---\n\n');
+      try {
+        await navigator.clipboard.writeText(txt);
+        alert('已复制到剪贴板：个人信息处理政策（中英）');
+      } catch(e){
+        alert('复制失败，请手动选择并复制文本。');
+      }
+    });
+  </script>
+</body>
+</html>
